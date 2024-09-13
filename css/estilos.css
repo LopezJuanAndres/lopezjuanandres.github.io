@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 10px;
+    
   }
 
 #contenedor {
@@ -14,17 +16,14 @@
 li .nav-link{ 
     color: #fbfcfb;
 }
-
 #Datos{
     display: flex;
     text-align: center;
 }
-
 #Datos h1{
     text-align: center;
     align-items: center;
-margin-top: 15%;
-    
+    margin-top: 15%;    
 }
 @media (max-width:600px){
     #Datos{
@@ -33,20 +32,16 @@ margin-top: 15%;
     }
 }
 
-
 div.card-header {
     margin: 10px;
     height: 80%;
     align-items: center;
     background-color: rgb(93, 142, 247);
 }
-
 div.card-header section {
     background-color: rgb(83, 133, 252);
     text-align: center;
-
 }
-
 
 /** ----------------------------------------------------------- body -----------------------------------------------------------**/
 body {
