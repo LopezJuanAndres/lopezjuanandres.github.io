@@ -8,8 +8,10 @@
 #contenedor {
   border-style: solid;
   padding-top: 30px;
-  background: linear-gradient(to right, rgb(2, 158, 179), rgb(1, 29, 46));
-
+  background: linear-gradient(to right, rgb(77, 78, 78), rgb(54, 56, 56));
+ /** 
+  background-image:url('../imagenes/Desk\ setup\ inspiration.jpg') ;**/
+ 
 }
 
 /** ----------------------------------------------------------- header-----------------------------------------------------------**/
@@ -34,13 +36,15 @@ div.card-header {
   margin: 10px;
   height: 80%;
   align-items: center;
-  background-color: rgb(248, 36, 8);
+  background-color: rgb(2, 0, 8);
 }
 
 /** ----------------------------------------------------------- body -----------------------------------------------------------**/
 body {
-  /** background: linear-gradient(to right, rgb(239, 248, 252), rgb(236, 241, 241));**/
+  /** background: linear-gradient(to right, rgb(239, 248, 252), rgb(236, 241, 241));
+  background-image:url('../imagenes/Desk\ setup\ inspiration.jpg') ;**/
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
 #Info {
