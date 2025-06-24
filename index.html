@@ -1,327 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-<<<<<<< HEAD
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Juan Andres Lopez</title>
-  <!-- Enlaces a hoja de estilo propia de css y cdn de bootstrap y cdn libreria js que utilizan las animaciones de boostrap-->
-  <link rel="stylesheet" href="css/estilos.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/f1c83b6af2.js" crossorigin="anonymous"></script>
-  <script src="js/funciones.js"></script>
-
-</head>
-
-<body>
-
-  <!----------------------Div Contenedor -------------------- -->
-  <div id="contenedor" class="container-fluid">
-    <!---------------------------------------------Barra de navegacion --------------------- -------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Juan Andres Lopez</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#titulos">Titulos y Certificaciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Experiencia">Experiencia Laboral</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!---------------------- seccion de Informacion -------------------- -->
-    <Section class=" text-md-center container-sm " id="Info">
-      <div id="Datos">
-        <!--imagen de perfil------------------------------------------->
-        <div class="card-header row">
-          <div id="FPerfil" class="col-4 ">
-            <img src="imagenes/Perfil 2025.jpg" class="img-thumbnail" alt="Foto de Perfil">
-          </div>
-          <h1 class="col-8">Técnico Superior en Desarrollo de Software </h1><br>
-          <!-- <span id="edad"></span> años <br>-->
-        </div>
-    </Section>
-    <!---------------Seccion Proyectos Github-------------------------------------------------------------------------------- -->
-
-    <!---------------------- seccion de Certificados y estudios --------------------------------------------- -->
-    <Section id="titulos">
-      <h3>Educación</h3>
-      <div class="wrap">
-        <div class="galeria">
-          <div class="imagen elemento5">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#TecnicoSuperior">
-              <img src="imagenes/Tec.sup.desarrollador.jpg" alt="">
-            </button>
-            <!-- Modal -->
-            <div class="modal fade " id="TecnicoSuperior" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header bg-dark">
-                    <h2 class="modal-title " id="exampleModalLabel">Técnico Superior En Desarrollo de Software</h2>
-                  </div>
-                  <div class="modal-body bg-dark">
-                    <h4> (2018-2021) - Realice mis estudios terciario en la <a
-                      href="https://ens46-sfe.infd.edu.ar/sitio/">Escuela Superior y Superior de Comercio Nro. 46
-                      “Domingo Guzmán Silva”</a>.<br>
-                    Adquiriendo los conocimientos para producir artefactos de Software,lo que comprende su diseño
-                    detallado, construcción - reutilizando elementos existentes o programándolos enteramente- y
-                    verificación unitaria, así como su depuración, optimización y mantenimiento; desarrollando las actividades
-                    descriptas en el perfil profesional y cumpliendo con los criterios de realización establecidos Para las mismas en el marco de un equipo
-                    de trabajo organizado por proyecto.</h4>
-                  </div>
-                  <div class="modal-footer bg-dark">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="imagen elemento5">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#TecnicoSecundario">
-              <img src="imagenes/Tec.2dario.jpg" alt="">
-            </button>
-            <!-- Modal -->
-            <div class="modal fade " id="TecnicoSecundario" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header bg-dark">
-                    <h2 class="modal-title " id="exampleModalLabel">Técnico en Informatica Profesional y Personal
-                    </h2>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body bg-dark">
-                    <h4> (2006-2012)- Realice mis estudios secundarios en la Escuela de Educación Secundaria Modalidad
-                    Técnico
-                    Profesional N° 322 "Obispo
-                    José María Gelabert". <br>
-                    El Técnico en Informática Profesional y Personal está capacitado para asistir al usuario de
-                    productos y servicios informáticos brindándole servicios de instalación, capacitación,
-                    sistematización, mantenimiento primario, resolución de problemas derivados de la operatoria, y
-                    apoyo a la contratación de productos o servicios informáticos, desarrollando las actividades
-                    descriptas en su perfil profesional y pudiendo actuar de nexo entre el especialista o experto en
-                    el tema, producto o servicio y el usuario final.</h4>
-                  </div>
-                  <div class="modal-footer bg-dark">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="imagen elemento7"> <!-- Button trigger modal -->
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Operador">
-              <img src="imagenes/operador.jpg" alt="">
-            </button>
-            <!-- Modal -->
-            <div class="modal fade " id="Operador" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header bg-dark">
-                    <h2 class="modal-title " id="exampleModalLabel"> Operador de Informática Para Administración y Gestión </h2>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body bg-dark">
-                   <h4> (2016) Con esta capacitación reforce conocimientos para poder brindar servicios profesionales como
-                    operador de
-                    informática mediante el uso de herramientas informáticas en el entorno de trabajo pudiendo
-                    resolver
-                    problemas propios de la actividad dentro de una amplia gama de acciones generales de apoyo
-                    administrativo, de gestión y de comunicación, remitiéndose a
-                    especialistas para solucionar problemas de mayor complejidad.</h4>
-                  </div>
-                  <div class="modal-footer bg-dark">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </Section>
-    
-    <!---------------------- seccion Practicas Educativas-------------------- -->
-    <Section id="Proyectos">
-      <h3>Proyectos Personales de Indole Educativo</h3>
-      <!---------------------- ----------------Imagenes-------------------- -->
-      <div class="wrap" id="Proyectos">
-        <div  id="VB" class="galeria">          
-          <div class="imagen elemento3" data-bs-toggle="tooltip" data-bs-placement="bottom"
-            title="Gestor Asistencia (PHP-Jquery-Ajax)">
-            <a href="https://github.com/LopezJuanAndres/Sistema-Web/tree/main"><img src="imagenes/html-php-.png"
-                alt=""></a>
-          </div>
-          <div class="imagen elemento4" data-bs-toggle="tooltip" data-bs-placement="bottom"
-            title="Gestor asistencia - Visual Basic Access">
-            <a href="https://github.com/LopezJuanAndres/VisualBasic-Access/tree/main"><img  src="imagenes/vBasic.png" alt=""></a>
-          </div>
-          <div class="imagen elemento5" data-bs-toggle="tooltip" data-bs-placement="bottom"
-            title="Login Basico MVC (Java-MySql)">
-            <a href="https://github.com/LopezJuanAndres/JAVA-MVC-Login"><img src="imagenes/java.png" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </section>
-<!---------------------- seccion Experiencia Laboral-------------------- -->
-<Section id="Experiencia">
-  <h3>Experiencia Laboral</h3>
-  <!---------------------- ----------------Imagenes-------------------- -->
-  <div class="wrap">
-    <div class="galeria">
-      <div class="imagen elemento2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reemplazante Docente">
-        <h1>Reemplazante Docente</h1>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Docente">
-        <img src="imagenes/profesor-hombre-aula_.avif" alt=""> 
-        </button>
-        <!-- Modal -->
-        <div class="modal fade " id="Docente" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header bg-dark">
-                <h5 class="modal-title " id="exampleModalLabel">Docente</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body bg-dark">
-                <h3>  Desempeño de reemplazos varios en instituciones Educativas de indole Públicas y
-                Privadas, dictando clases de las materias Programación , Logica y Estructura de Datos ,Educación
-                Tecnológica ,entre otras.Actualmente cuento con 11 meses de antigüedad docente en el Nivel
-                secundario y Primario del sistema educativo provincial. </h3>
-              </div>
-              <div class="modal-footer bg-dark">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="imagen elemento3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Soporte Técnico Nivel 2">
-        <h1>Soporte Técnico Nivel 2</h1>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Soporte">
-          <img src="imagenes/soporte-tecnico.jpg" alt="">
-        </button>
-        <!-- Modal -->
-        <div class="modal fade " id="Soporte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header bg-dark">
-                <h5 class="modal-title " id="exampleModalLabel">Soporte Técnico Nivel 2 </h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body bg-dark">
-                <h3>Como Asistente Tecnico en la empresa Conmega ACE brinde soporte técnico a clientes internos de
-                  la Firma Musimundo y Crédito Argentino. <br>
-                  Entre las funciones principales y mas destacadas se encuentran las siguientes : <br>
-                  -Instalacion y Configuracion de Sistemas Operativos en Pc de Escritorios y Notebook.<br>
-                  - Instalacion y Configuracion de Software varios<br>
-                  - Limpieza y Reparacion de Impresoras Laser<br>
-                  - Instalacion y mantenimiento de Drivers<br>
-                  - Instalacion y Configuraciones de Terminales Poi (Lapos-Posnet).<br>
-                  - Limpieza y Mantenimiento de Pc de Escritorio Y Notebook(Varios Modelos y Marcas)<br>
-                </h3>
-              </div>
-              <div class="modal-footer bg-dark">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    <!---------------------- seccion de contacto-------------------- -->
-    <Section class="container-sm" id="Contacto">
-      <h3>Informacion de contacto</h3>
-      <span id="telefono"><i class="fa-sharp fa-solid fa-phone" data-bs-toggle="tooltip" data-bs-placement="top"
-          title="(+54-0342-155576311)"></i> </span>
-      <span id="correo"><i class="fa-sharp fa-solid fa-envelope" data-bs-toggle="tooltip" data-bs-placement="top"
-          title="andres.juan.lopez@gmail.com"></i> </span>
-      <span><a href="https://www.linkedin.com/in/juan-andres-lopez-55b243203"><i class="fa fa-linkedin"
-            aria-hidden="true" data-bs-toggle="tooltip" data-bs-placement="top"
-            title="https://www.linkedin.com/in/juan-andres-lopez-55b243203/"></i></a></span>
-      <span><a href="https://github.com/LopezJuanAndres"><i class="fa-brands fa-github" data-bs-toggle="tooltip"
-            data-bs-placement="top" title="https://github.com/LopezJuanAndres"></i> </a> </span>
-    </Section>
-  </div>
-  </div>
-
-</body>
-
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Juan Andrés López</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+      </head>
+      <body>
+        <header><img src="mi-foto.jpg" alt="Foto de Juan Andrés López" class="foto-perfil" />
+          <h1>Juan Andrés López</h1>
+          <p>Docente Técnico | Desarrollador | Administrativo</p>
+          <a href="cv.pdf" class="btn-cta">Descargar CV</a>
+        </header>
+      
+        <main>
+          <section>
+            <h2>📚 Formación Académica</h2>
+            <ul>
+              <li>Técnico en Informática – EET Nº 322 (2012)</li>
+              <li>Desarrollo de Software – EESyS Nº 46 (2021)</li>
+            </ul>
+          </section>
+      
+          <section>
+            <h2>🛠️ Herramientas y Lenguajes</h2>
+            <ul>
+              <li>PHP,HTML, CSS, JavaScript</li>
+              <li>Office, herramientas de gestión y logística</li>
+            </ul>
+          </section>
+      
+          <section>
+            <h2>📌 Contacto</h2>
+            <p>Email: andres.juan.lopez@gmail.com</p>
+            <p>Tel: 342-5576311</p>
+          </section>
+        </main>
+        <section class="social">
+          <a href="https://github.com/LopezJuanAndres" target="_blank">GitHub</a> |
+          <a href="https://www.linkedin.com/in/juan-andres-lopez-55b243203" target="_blank">LinkedIn</a>
+        </section>
+        
+        <footer>
+          <p>© 2025 Juan Andrés López</p>
+        </footer>
+      </body>
+      </html>
 </html>
-=======
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Juan Andrés López</title>
-  <link rel="stylesheet" href="/css/styles.css" />
-</head>
-<body>
-  <header><img src="mi-foto.jpg" alt="Foto de Juan Andrés López" class="foto-perfil" />
-    <h1>Juan Andrés López</h1>
-    <p>Docente Técnico | Desarrollador | Administrativo</p>
-    <a href="cv.pdf" class="btn-cta">Descargar CV</a>
-  </header>
-
-  <main>
-    <section>
-      <h2>📚 Formación Académica</h2>
-      <ul>
-        <li>Técnico en Informática – EET Nº 322 (2012)</li>
-        <li>Desarrollo de Software – EESyS Nº 46 (2021)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>🛠️ Herramientas y Lenguajes</h2>
-      <ul>
-        <li>PHP,HTML, CSS, JavaScript</li>
-        <li>Office, herramientas de gestión y logística</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>📌 Contacto</h2>
-      <p>Email: andres.juan.lopez@gmail.com</p>
-      <p>Tel: 342-5576311</p>
-    </section>
-  </main>
-  <section class="social">
-    <a href="https://github.com/LopezJuanAndres" target="_blank">GitHub</a> |
-    <a href="https://www.linkedin.com/in/juan-andres-lopez-55b243203" target="_blank">LinkedIn</a>
-  </section>
-  
-  <footer>
-    <p>© 2025 Juan Andrés López</p>
-  </footer>
-</body>
-</html>
->>>>>>> 80c2830 (subiendo sitio nuevo completo)
